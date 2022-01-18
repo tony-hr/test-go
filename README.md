@@ -1,4 +1,4 @@
-## Test info
+## Test Info
 Fungsi untuk mendapatkan nilai terbesar dari value array yang berderet dan
 muncul lagi setelahnya dengan urutan deret sebaliknya. Dibuat menggunakan Go Programming
 
@@ -11,8 +11,9 @@ muncul lagi setelahnya dengan urutan deret sebaliknya. Dibuat menggunakan Go Pro
 ```
 $ go run main.go
 ```
+Hasil program: `Nilai terbesar 3 (dari deret [1 2 3])`
 
-## Output
+## Run Unit Test
 ```
-$ Nilai terbesar 3 (dari deret [1 2 3])
+$ go test main.go main_test.go
 ```
